@@ -19,6 +19,15 @@
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0"
   },
+  "scripts":{
+    "fundwallet": "yarn hardhat run scripts/fundwallet.js --network localhost",
+    "withdraw":"yarn hardhat run scripts/withdraw.js --network localhost",
+    "coverage":"yarn hardhat coverage",
+    "deploy": "yarn hardhat deploy",
+    "compile":"yarn hardhat compile"
+    
+
+  },
   "dependencies": {
     "colors": "^1.4.0"
   }
